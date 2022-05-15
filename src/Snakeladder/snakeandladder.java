@@ -7,6 +7,7 @@ public class snakeandladder {
 
     public static void main(String[] args) {
         int x = 0;
+        int i = 0;
         System.out.println("welcome to snake and ladder program");
         System.out.println("starting position of the player is :" + PLAYER_A_POSITION);
         while (x < 100) {
@@ -37,8 +38,9 @@ public class snakeandladder {
             }
             if (x > 100)
                 x = p;
-
+                i++;
         }
-    }
+        System.out.println("The number of time the dice played to win a game:" +i );
+      }
 }
 
