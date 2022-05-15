@@ -10,6 +10,7 @@ public class snakeandladder {
         System.out.println("welcome to snake and ladder program");
         System.out.println("starting position of the player is :" + PLAYER_A_POSITION);
         while (x < 100) {
+            int p = x;
             Random dice = new Random();
             int DiceDispaly = dice.nextInt(6) + 1;
             System.out.println("numbers display on the dice is:" + DiceDispaly);
@@ -34,6 +35,8 @@ public class snakeandladder {
                 x = 0;
                 System.out.println("The player start from:" + x);
             }
+            if (x > 100)
+                x = p;
 
         }
     }
