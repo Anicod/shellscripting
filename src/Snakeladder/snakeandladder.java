@@ -41,6 +41,7 @@ public class snakeandladder {
                 i++;
         }
         System.out.println("The number of time the dice played to win a game:" +i );
+        System.out.println("The number of time the dice played to win a game:" +i );
       }
 }
 
